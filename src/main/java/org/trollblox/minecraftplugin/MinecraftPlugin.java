@@ -1,12 +1,13 @@
 package org.trollblox.minecraftplugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import org.trollblox.minecraftplugin.listeners.SpawnDolphins;
 
 public final class MinecraftPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        new SpawnDolphins(this);
 
     }
 

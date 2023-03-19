@@ -1,0 +1,4 @@
+name: MinecraftPlugin
+version: '${project.version}'
+main: org.trollblox.minecraftplugin.MinecraftPlugin
+api-version: 1.19
